@@ -11,21 +11,22 @@
 package com.msbvip.c_001;
 
 /**
+ * @version 1、启动线程的三种方式 （Thread \Runnable\线程池）
  * @Classname T01_HowToCreatThread
  * @Description TODO
  * @Date 2020/5/26 16:52
  * @Created by xbliu
- * @version
- *  1、启动线程的三种方式 （Thread \Runnable\线程池）
  */
 public class T02_HowToCreatThread {
-    static  class MyThread extends Thread{
+    static class MyThread extends Thread {
         @Override
         public void run() {
             System.out.println("Hello MyThread");
         }
     }
-    static  class Myrun implements Runnable {
+
+    //实现Runnable
+    static class Myrun implements Runnable {
         @Override
         public void run() {
             System.out.println("Hello Myrun");
@@ -36,7 +37,7 @@ public class T02_HowToCreatThread {
     public static void main(String[] args) {
         new MyThread().start();
         new Thread(new Myrun()).start();
-        new Thread(()->{
+        new Thread(() -> {
             System.out.println("Hello lambda");
         }).start();
     }

@@ -17,11 +17,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6c5ec5fe-3e89-46db-9d59-812cda2df853" name="Default Changelist" comment="新建项目">
-      <change afterPath="$PROJECT_DIR$/juc/src/main/java/com/msbvip/c_001/T02_HowToCreatThread.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/juc/juc.iml" beforeDir="false" afterPath="$PROJECT_DIR$/juc/juc.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/juc/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/juc/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/juc/src/main/java/com/msbvip/c_001/T02_HowToCreatThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/juc/src/main/java/com/msbvip/c_001/T02_HowToCreatThread.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,7 +78,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RebelAgentSelection">
     <selection>jr</selection>
@@ -178,7 +175,7 @@
       <option name="presentableId" value="Default" />
       <updated>1590458908985</updated>
       <workItem from="1590458921618" duration="3606000" />
-      <workItem from="1590463343799" duration="4375000" />
+      <workItem from="1590463343799" duration="4812000" />
     </task>
     <task id="LOCAL-00001" summary="新建项目">
       <created>1590461344209</created>
@@ -243,7 +240,28 @@
       <option name="project" value="LOCAL" />
       <updated>1590483057630</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="新建项目">
+      <created>1590483683099</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1590483683099</updated>
+    </task>
+    <task id="LOCAL-00011" summary="新建项目">
+      <created>1590483738521</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1590483738521</updated>
+    </task>
+    <task id="LOCAL-00012" summary="新建项目">
+      <created>1590483757339</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1590483757339</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -343,34 +361,34 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="633" y="134" key="Github.UntrackedFilesDialog/0.0.1600.860@0.0.1600.860" timestamp="1590464527755" />
-    <state width="778" height="210" key="GridCell.Tab.0.bottom" timestamp="1590483647042">
+    <state width="778" height="320" key="GridCell.Tab.0.bottom" timestamp="1590483763872">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="778" height="210" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1590483647042" />
-    <state width="778" height="210" key="GridCell.Tab.0.center" timestamp="1590483647042">
+    <state width="778" height="320" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1590483763872" />
+    <state width="778" height="320" key="GridCell.Tab.0.center" timestamp="1590483763871">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="778" height="210" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1590483647042" />
-    <state width="778" height="210" key="GridCell.Tab.0.left" timestamp="1590483647041">
+    <state width="778" height="320" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1590483763871" />
+    <state width="778" height="320" key="GridCell.Tab.0.left" timestamp="1590483763871">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="778" height="210" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1590483647041" />
-    <state width="778" height="210" key="GridCell.Tab.0.right" timestamp="1590483647042">
+    <state width="778" height="320" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1590483763871" />
+    <state width="778" height="320" key="GridCell.Tab.0.right" timestamp="1590483763871">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="778" height="210" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1590483647042" />
+    <state width="778" height="320" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1590483763871" />
     <state x="330" y="84" key="Maven.ArtifactSearchDialog" timestamp="1590482014210">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="330" y="84" key="Maven.ArtifactSearchDialog/0.0.1600.860@0.0.1600.860" timestamp="1590482014210" />
-    <state x="301" y="61" key="SettingsEditor" timestamp="1590482196883">
+    <state x="301" y="61" key="SettingsEditor" timestamp="1590484060243">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="301" y="61" key="SettingsEditor/0.0.1600.860@0.0.1600.860" timestamp="1590482196883" />
-    <state x="392" y="162" key="Vcs.Push.Dialog.v2" timestamp="1590464639317">
+    <state x="301" y="61" key="SettingsEditor/0.0.1600.860@0.0.1600.860" timestamp="1590484060243" />
+    <state x="392" y="162" key="Vcs.Push.Dialog.v2" timestamp="1590483760848">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="392" y="162" key="Vcs.Push.Dialog.v2/0.0.1600.860@0.0.1600.860" timestamp="1590464639317" />
+    <state x="392" y="162" key="Vcs.Push.Dialog.v2/0.0.1600.860@0.0.1600.860" timestamp="1590483760848" />
     <state x="92" y="92" width="1416" height="676" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1590462842675">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
