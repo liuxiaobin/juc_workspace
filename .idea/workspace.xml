@@ -16,10 +16,9 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6c5ec5fe-3e89-46db-9d59-812cda2df853" name="Default Changelist" comment="新建项目">
-      <change afterPath="$PROJECT_DIR$/juc/src/main/java/com/msbvip/c_001/T03_Sleep_Yield_Join.java" afterDir="false" />
+    <list default="true" id="6c5ec5fe-3e89-46db-9d59-812cda2df853" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/juc/src/main/java/com/msbvip/c_001/T02_HowToCreatThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/juc/src/main/java/com/msbvip/c_001/T02_HowToCreatThread.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/juc/src/main/java/com/msbvip/c_001/T03_Sleep_Yield_Join.java" beforeDir="false" afterPath="$PROJECT_DIR$/juc/src/main/java/com/msbvip/c_001/T03_Sleep_Yield_Join.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,7 +83,7 @@
   <component name="RebelAgentSelection">
     <selection>jr</selection>
   </component>
-  <component name="RunManager" selected="Application.T02_HowToCreatThread">
+  <component name="RunManager" selected="Application.T03_Sleep_Yield_Join">
     <configuration name="T01_WhatIsThread" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.msbvip.c_001.T01_WhatIsThread" />
       <module name="juc" />
@@ -100,6 +99,19 @@
     </configuration>
     <configuration name="T02_HowToCreatThread" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.msbvip.c_001.T02_HowToCreatThread" />
+      <module name="juc" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.msbvip.c_001.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="T03_Sleep_Yield_Join" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.msbvip.c_001.T03_Sleep_Yield_Join" />
       <module name="juc" />
       <extension name="coverage">
         <pattern>
@@ -160,6 +172,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.T03_Sleep_Yield_Join" />
         <item itemvalue="Application.T02_HowToCreatThread" />
         <item itemvalue="Application.T01_WhatIsThread" />
       </list>
@@ -177,7 +190,7 @@
       <updated>1590458908985</updated>
       <workItem from="1590458921618" duration="3606000" />
       <workItem from="1590463343799" duration="5580000" />
-      <workItem from="1590632080213" duration="3335000" />
+      <workItem from="1590632080213" duration="7442000" />
     </task>
     <task id="LOCAL-00001" summary="新建项目">
       <created>1590461344209</created>
@@ -270,7 +283,14 @@
       <option name="project" value="LOCAL" />
       <updated>1590484137977</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="认识多线程的一些方法">
+      <created>1590646501721</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1590646501721</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -335,17 +355,18 @@
       <path value="$PROJECT_DIR$" />
     </ignored-roots>
     <MESSAGE value="新建项目" />
-    <option name="LAST_COMMIT_MESSAGE" value="新建项目" />
+    <MESSAGE value="认识多线程的一些方法" />
+    <option name="LAST_COMMIT_MESSAGE" value="认识多线程的一些方法" />
   </component>
   <component name="WindowStateProjectService">
     <state x="280" y="3" key="#Project_Structure" timestamp="1590461383174">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="280" y="3" key="#Project_Structure/0.0.1600.860@0.0.1600.860" timestamp="1590461383174" />
-    <state x="398" y="0" key="CommitChangelistDialog2" timestamp="1590463094286">
+    <state x="393" y="88" width="800" height="692" key="CommitChangelistDialog2" timestamp="1590646500361">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="398" y="0" key="CommitChangelistDialog2/0.0.1600.860@0.0.1600.860" timestamp="1590463094286" />
+    <state x="393" y="88" width="800" height="692" key="CommitChangelistDialog2/0.0.1600.860@0.0.1600.860" timestamp="1590646500361" />
     <state x="92" y="92" width="1416" height="676" key="DiffContextDialog" timestamp="1590464265099">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
@@ -370,22 +391,22 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="633" y="134" key="Github.UntrackedFilesDialog/0.0.1600.860@0.0.1600.860" timestamp="1590464527755" />
-    <state width="1556" height="210" key="GridCell.Tab.0.bottom" timestamp="1590487566101">
+    <state width="1556" height="320" key="GridCell.Tab.0.bottom" timestamp="1590657885633">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1556" height="210" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1590487566101" />
-    <state width="1556" height="210" key="GridCell.Tab.0.center" timestamp="1590487566101">
+    <state width="1556" height="320" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1590657885633" />
+    <state width="1556" height="320" key="GridCell.Tab.0.center" timestamp="1590657885633">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1556" height="210" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1590487566101" />
-    <state width="1556" height="210" key="GridCell.Tab.0.left" timestamp="1590487566101">
+    <state width="1556" height="320" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1590657885633" />
+    <state width="1556" height="320" key="GridCell.Tab.0.left" timestamp="1590657885633">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1556" height="210" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1590487566101" />
-    <state width="1556" height="210" key="GridCell.Tab.0.right" timestamp="1590487566101">
+    <state width="1556" height="320" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1590657885633" />
+    <state width="1556" height="320" key="GridCell.Tab.0.right" timestamp="1590657885633">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1556" height="210" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1590487566101" />
+    <state width="1556" height="320" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1590657885633" />
     <state x="330" y="84" key="Maven.ArtifactSearchDialog" timestamp="1590482014210">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
@@ -406,6 +427,10 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="525" y="105" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1600.860@0.0.1600.860" timestamp="1590482337211" />
+    <state x="594" y="342" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1590647543158">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="594" y="342" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1600.860@0.0.1600.860" timestamp="1590647543158" />
     <state x="584" y="221" key="git4idea.merge.GitPullDialog" timestamp="1590464260970">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
