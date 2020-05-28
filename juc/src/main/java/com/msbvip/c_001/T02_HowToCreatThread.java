@@ -11,11 +11,12 @@
 package com.msbvip.c_001;
 
 /**
- * @version 1、启动线程的三种方式 （Thread \Runnable\线程池）
+ * @version
  * @Classname T01_HowToCreatThread
  * @Description TODO
  * @Date 2020/5/26 16:52
  * @Created by xbliu
+ * 1、启动线程的三种方式 （Thread \Runnable\线程池）
  */
 public class T02_HowToCreatThread {
     static class MyThread extends Thread {
