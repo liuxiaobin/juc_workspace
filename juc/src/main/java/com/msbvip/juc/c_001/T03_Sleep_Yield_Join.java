@@ -8,7 +8,7 @@
  * <author>          <time>          <version>          <desc>
  * xbliu           修改时间           版本号              描述
  */
-package com.msbvip.c_001;
+package com.msbvip.juc.c_001;
 
 /**
  * @Classname T01_Sleep_Yield_Join

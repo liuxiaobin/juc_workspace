@@ -1,4 +1,4 @@
-package com.msbvip.c_001;
+package com.msbvip.juc.c_001;
 
 import java.util.concurrent.TimeUnit;
 
