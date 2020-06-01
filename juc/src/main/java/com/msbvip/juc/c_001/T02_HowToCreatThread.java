@@ -30,7 +30,7 @@ public class T02_HowToCreatThread {
     static class Myrun implements Runnable {
         @Override
         public void run() {
-            System.out.println("Hello Myrun");
+            System.out.println("Hello Runnable");
         }
     }
 

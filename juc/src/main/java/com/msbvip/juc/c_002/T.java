@@ -10,11 +10,27 @@
  */
 package com.msbvip.juc.c_002;
 
+
 /**
  * @Classname T
- * @Description TODO
+ * @Description synchronized关键字
+ * 对某个对象加锁
  * @Date 2020/5/29 10:59
  * @Created by xbliu
  */
 public class T {
+    private Integer count = 10;
+    private Object o = new Object();
+
+    public static void main(String[] args) {
+        T t = new T();
+        t.m();
+    }
+
+    private void m() {
+        synchronized (o) {//任何要执行这段代码的都需要先拿下来O的锁
+            count--;
+            System.out.println(Thread.currentThread().getName()+"----count="+count);
+        }
+    }
 }
