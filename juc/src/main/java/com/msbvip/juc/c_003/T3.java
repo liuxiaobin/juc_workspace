@@ -17,36 +17,35 @@ package com.msbvip.juc.c_003;
  * @Created by xbliu
  */
 public class T3 implements Runnable {
-    T4 t4 = new T4();
+    T33 t33 = new T33();
 
     public static void main(String[] args) {
         T3 t3 = new T3();
-        Thread t1 = new Thread(t3);
-        Thread t2 = new Thread(t3);
-        t1.setName("t1");
-        t2.setName("t2");
+        Thread t1 = new Thread(t3, "t1");
+        Thread t2 = new Thread(t3, "t2");
+
         t1.start();
         t2.start();
     }
 
     @Override
     public void run() {
-        t4.add(Thread.currentThread().getName());
+        t33.add(Thread.currentThread().getName());
     }
 }
 
-class T4 {
+class T33 {
     private static int num = 0;
 
     public void add(String name) {
-        synchronized (this) {
-        }
-        num++;
-        try {
-            Thread.sleep(1);
-        } catch (InterruptedException e) {
+       synchronized (this) {
+            num++;
+            try {
+                Thread.sleep(1);
+            } catch (InterruptedException e) {
 
+            }
+            System.out.println(name + "你是第" + num + "个使用T4的线程");
         }
-        System.out.println(name + "你是第" + num + "个使用T4的线程");
-    }
+   }
 }

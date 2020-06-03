@@ -19,10 +19,11 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6c5ec5fe-3e89-46db-9d59-812cda2df853" name="Default Changelist" comment="synchronized的学习">
-      <change afterPath="$PROJECT_DIR$/juc/src/main/java/com/msbvip/juc/c_003/T3.java" afterDir="false" />
+    <list default="true" id="6c5ec5fe-3e89-46db-9d59-812cda2df853" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/juc/src/main/java/com/msbvip/juc/c_003/T4.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/juc/src/main/java/com/msbvip/juc/c_002/T2.java" beforeDir="false" afterPath="$PROJECT_DIR$/juc/src/main/java/com/msbvip/juc/c_002/T2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/juc/src/main/java/com/msbvip/juc/c_003/T3.java" beforeDir="false" afterPath="$PROJECT_DIR$/juc/src/main/java/com/msbvip/juc/c_003/T3.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,6 +42,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GithubDefaultAccount">
+    <option name="defaultAccountId" value="f3f66dd4-07ba-447c-8187-adec7639c126" />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -72,7 +76,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../RonglianProjects/jfpt_common_v1.6.7" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -84,7 +88,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="editing.templates" />
+    <property name="settings.editor.selected.configurable" value="settings.gitee" />
   </component>
   <component name="RebelAgentSelection">
     <selection>jr</selection>
@@ -108,7 +112,7 @@
       <module name="juc" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.msbvip.juc.c_003.*" />
+          <option name="PATTERN" value="com.msbvip.juc.c_003.T4" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -121,7 +125,7 @@
       <module name="juc" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.msbvip.juc.c_003.*" />
+          <option name="PATTERN" value="com.msbvip.juc.c_003.T4" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -129,12 +133,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="T3 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="T3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.msbvip.juc.c_003.T3" />
       <module name="juc" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.msbvip.juc.c_003.*" />
+          <option name="PATTERN" value="com.msbvip.juc.c_003.T4" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -232,7 +236,7 @@
       <workItem from="1590992977241" duration="20996000" />
       <workItem from="1591145724766" duration="886000" />
       <workItem from="1591146636655" duration="42000" />
-      <workItem from="1591146686347" duration="7658000" />
+      <workItem from="1591146686347" duration="13784000" />
     </task>
     <task id="LOCAL-00001" summary="新建项目">
       <created>1590461344209</created>
@@ -360,7 +364,14 @@
       <option name="project" value="LOCAL" />
       <updated>1591088318562</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="线程同步">
+      <created>1591167774100</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1591167774100</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -428,7 +439,8 @@
     <MESSAGE value="认识多线程的一些方法" />
     <MESSAGE value="interrupt的使用" />
     <MESSAGE value="synchronized的学习" />
-    <option name="LAST_COMMIT_MESSAGE" value="synchronized的学习" />
+    <MESSAGE value="线程同步" />
+    <option name="LAST_COMMIT_MESSAGE" value="线程同步" />
   </component>
   <component name="WindowStateProjectService">
     <state x="699" y="333" key="#Custom_Plugin_Repositories" timestamp="1590992871719">
@@ -459,18 +471,22 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="576" y="322" width="447" height="224" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1600.860@0.0.1600.860" timestamp="1591146553939" />
-    <state x="393" y="88" width="800" height="692" key="CommitChangelistDialog2" timestamp="1591088344625">
+    <state x="439" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1591175792111">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="393" y="88" width="800" height="692" key="CommitChangelistDialog2/0.0.1600.860@0.0.1600.860" timestamp="1591088344625" />
+    <state x="439" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1600.860@0.0.1600.860" timestamp="1591175792111" />
+    <state x="393" y="88" width="800" height="692" key="CommitChangelistDialog2" timestamp="1591167772094">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="393" y="88" width="800" height="692" key="CommitChangelistDialog2/0.0.1600.860@0.0.1600.860" timestamp="1591167772094" />
     <state x="92" y="92" width="1416" height="676" key="DiffContextDialog" timestamp="1590464265099">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="92" y="92" width="1416" height="676" key="DiffContextDialog/0.0.1600.860@0.0.1600.860" timestamp="1590464265099" />
-    <state x="580" y="184" key="FileChooserDialogImpl" timestamp="1591145771857">
+    <state x="580" y="184" key="FileChooserDialogImpl" timestamp="1591170537718">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="580" y="184" key="FileChooserDialogImpl/0.0.1600.860@0.0.1600.860" timestamp="1591145771857" />
+    <state x="580" y="184" key="FileChooserDialogImpl/0.0.1600.860@0.0.1600.860" timestamp="1591170537718" />
     <state x="611" y="329" key="Gitee.CreateGistDialog" timestamp="1590463011021">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
@@ -479,10 +495,10 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="640" y="329" key="Gitee.ShareDialog/0.0.1600.860@0.0.1600.860" timestamp="1590462840303" />
-    <state x="649" y="350" key="Github.Dialog.Accounts.Choose" timestamp="1590999881521">
+    <state x="649" y="350" key="Github.Dialog.Accounts.Choose" timestamp="1591168047116">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="649" y="350" key="Github.Dialog.Accounts.Choose/0.0.1600.860@0.0.1600.860" timestamp="1590999881521" />
+    <state x="649" y="350" key="Github.Dialog.Accounts.Choose/0.0.1600.860@0.0.1600.860" timestamp="1591168047116" />
     <state x="657" y="326" key="Github.ShareDialog" timestamp="1590464670533">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
@@ -491,38 +507,38 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="633" y="134" key="Github.UntrackedFilesDialog/0.0.1600.860@0.0.1600.860" timestamp="1590464527755" />
-    <state width="1556" height="280" key="GridCell.Tab.0.bottom" timestamp="1591167120439">
+    <state width="1556" height="280" key="GridCell.Tab.0.bottom" timestamp="1591175629256">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1556" height="280" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1591167120439" />
-    <state width="1556" height="280" key="GridCell.Tab.0.center" timestamp="1591167120439">
+    <state width="1556" height="280" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1591175629256" />
+    <state width="1556" height="280" key="GridCell.Tab.0.center" timestamp="1591175629256">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1556" height="280" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1591167120439" />
-    <state width="1556" height="280" key="GridCell.Tab.0.left" timestamp="1591167120439">
+    <state width="1556" height="280" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1591175629256" />
+    <state width="1556" height="280" key="GridCell.Tab.0.left" timestamp="1591175629256">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1556" height="280" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1591167120439" />
-    <state width="1556" height="280" key="GridCell.Tab.0.right" timestamp="1591167120439">
+    <state width="1556" height="280" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1591175629256" />
+    <state width="1556" height="280" key="GridCell.Tab.0.right" timestamp="1591175629256">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1556" height="280" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1591167120439" />
+    <state width="1556" height="280" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1591175629256" />
     <state width="220" height="477" key="HiddenNamespacesPopup" timestamp="1590980134689">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state width="220" height="477" key="HiddenNamespacesPopup/0.0.1600.860@0.0.1600.860" timestamp="1590980134689" />
-    <state x="380" y="163" key="IDE.errors.dialog" timestamp="1591146282727">
+    <state x="380" y="163" key="IDE.errors.dialog" timestamp="1591167981919">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="380" y="163" key="IDE.errors.dialog/0.0.1600.860@0.0.1600.860" timestamp="1591146282727" />
+    <state x="380" y="163" key="IDE.errors.dialog/0.0.1600.860@0.0.1600.860" timestamp="1591167981919" />
     <state x="330" y="84" key="Maven.ArtifactSearchDialog" timestamp="1590482014210">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="330" y="84" key="Maven.ArtifactSearchDialog/0.0.1600.860@0.0.1600.860" timestamp="1590482014210" />
-    <state x="301" y="61" key="SettingsEditor" timestamp="1591149711176">
+    <state x="301" y="61" key="SettingsEditor" timestamp="1591167947676">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="301" y="61" key="SettingsEditor/0.0.1600.860@0.0.1600.860" timestamp="1591149711176" />
+    <state x="301" y="61" key="SettingsEditor/0.0.1600.860@0.0.1600.860" timestamp="1591167947676" />
     <state x="521" y="160" width="582" height="524" key="StructurePopup" timestamp="1591146436956">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
@@ -535,10 +551,10 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="646" y="344" key="VCS.ChangelistChooser/0.0.1600.860@0.0.1600.860" timestamp="1591088230577" />
-    <state x="392" y="162" key="Vcs.Push.Dialog.v2" timestamp="1591088367285">
+    <state x="392" y="162" key="Vcs.Push.Dialog.v2" timestamp="1591168036842">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="392" y="162" key="Vcs.Push.Dialog.v2/0.0.1600.860@0.0.1600.860" timestamp="1591088367285" />
+    <state x="392" y="162" key="Vcs.Push.Dialog.v2/0.0.1600.860@0.0.1600.860" timestamp="1591168036842" />
     <state x="530" y="234" key="com.intellij.database.dbimport.ImportUtil.ChooseTargetDialog" timestamp="1591064156029">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
@@ -575,20 +591,9 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="170" y="39" key="new project wizard/0.0.1600.860@0.0.1600.860" timestamp="1590459370496" />
-    <state x="463" y="180" width="672" height="678" key="search.everywhere.popup" timestamp="1591149707461">
+    <state x="463" y="180" width="672" height="678" key="search.everywhere.popup" timestamp="1591167882243">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="463" y="180" width="672" height="678" key="search.everywhere.popup/0.0.1600.860@0.0.1600.860" timestamp="1591149707461" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/juc/src/main/java/com/msbvip/juc/c_003/T3.java</url>
-          <line>43</line>
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <state x="463" y="180" width="672" height="678" key="search.everywhere.popup/0.0.1600.860@0.0.1600.860" timestamp="1591167882243" />
   </component>
 </project>
