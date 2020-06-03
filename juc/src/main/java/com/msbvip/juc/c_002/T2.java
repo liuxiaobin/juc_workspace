@@ -17,14 +17,15 @@ package com.msbvip.juc.c_002;
  * @Created by xbliu
  */
 public class T2 {
-    private static  Integer count = 10;
+
+    private static  Integer anInt = 10;
     public synchronized static void m(){ //这里等同于 synchronized (T.class)
-        count--;
-        System.out.println(Thread.currentThread().getName()+"----count="+count);
+        anInt--;
+        System.out.println(Thread.currentThread().getName()+"----count="+ anInt);
     }
     public  static void mm(){
       synchronized (T.class){
-          count--;
+          anInt--;
       }
     }
 
