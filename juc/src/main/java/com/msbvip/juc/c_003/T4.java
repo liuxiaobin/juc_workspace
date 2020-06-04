@@ -17,4 +17,8 @@ package com.msbvip.juc.c_003;
  * @Created by xbliu
  */
 public class T4 {
+    public static void main(String[] args) {
+        
+    }
+
 }
